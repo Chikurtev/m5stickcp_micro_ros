@@ -58,7 +58,7 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time)
 }
 
 void setup() {
-  set_microros_wifi_transports("A1_FB72", "48575443BDD9E4A3", "192.168.100.35", 8888); 
+  set_microros_wifi_transports("WIFI SSID", "WIFI PASS", "HOST IP", PORT); 
 
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, HIGH);
